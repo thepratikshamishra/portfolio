@@ -1,0 +1,359 @@
+
+/* General */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #d6d19b;
+    color: #1a1919;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    background: #0c1d73;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 2px solid #f7c6f3;
+}
+
+nav a {
+    color: #efeeF4;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 10px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #0edc26;
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+/* Left */
+.left {
+    flex: 2;
+    min-width: 300px;
+}
+
+.left h1 {
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.heading4 {
+    font-size: 28px;
+    font-weight: 700;
+    font-style: italic;
+    color: #333;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+/* Right */
+.right {
+    flex: 1;
+    min-width: 250px;
+    display: flex;
+    justify-content: left;
+}
+
+.right-image {
+    width: 100%;
+    max-width: 520px;
+    border-radius: 10px;
+}
+
+/* Skills */
+.skills {
+    width: 60%;
+    margin: 50px auto;
+    text-align: left;
+}
+
+.skills h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #111;
+    margin-bottom: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.skill {
+    display: flex;
+    align-items: left;
+    margin-bottom: 20px;
+}
+
+.skill span {
+    width: 150px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.progress-container {
+    flex: 1;
+    height: 25px;
+    background-color: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0;
+    background-color: #f06622;
+    border-radius: 10px;
+    text-align: right;
+    line-height: 25px;
+    color: white;
+    font-weight: bold;
+    padding-right: 5px;
+    transition: width 2s ease-in-out;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .left h1 {
+        font-size: 50px;
+    }
+}
+
+
+
+
+/* about section */
+
+
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px;
+  gap: 50px;
+}
+
+/* Education (left side now) */
+.about-left {
+  flex: 1;
+}
+
+.about-left h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.edu {
+  margin-bottom: 25px;
+}
+
+.edu h3 {
+  font-size: 22px;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+/* Image + About (right side now) */
+.about-right {
+  flex: 1;
+  text-align: center;
+}
+
+.about-img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.about-right h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.about-right p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #444;
+}
+
+/* project part */
+
+
+.projects-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.project-card {
+  background: rgba(6, 6, 99, 0.85); /* darker solid background to stand out */
+  border-radius: 12px;
+  padding: 15px;           /* reduced from 20px to 15px */
+  max-width: 220px;        /* reduced from 260px to 220px */
+  margin: auto;
+  color: #fff;
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(108, 178, 235, 0.1);
+  box-shadow: 0 6px 18px rgba(109, 187, 243, 0.35);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  opacity: 0;
+  transform: translateY(40px) scale(0.95);
+}
+
+.project-card.show {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+.project-card:hover {
+  transform: translateY(-8px) scale(1.04);
+  box-shadow: 0 10px 25px rgba(82, 156, 253, 0.45);
+}
+
+
+
+
+
+/* our serives part */
+
+/* Section styles */
+#services {
+  padding: 50px;
+  background: #f5f5f5;
+  text-align: center;
+}
+
+#services h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #222;
+}
+
+/* Service cards */
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.service-card {
+  background: #ffffff; /* White card on grey background */
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 250px;
+  transition: transform 0.3s ease;
+}
+
+.service-card h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.service-card p {
+  font-size: 14px;
+  color: #666;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+}
+
+/* Fade-in animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease-in-out;
+}
+
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+/* hire me section */
+
+.hireme-section {
+  background: linear-gradient(135deg, #ff6a00, #ee0979);
+  color: white;
+  text-align: center;
+  padding: 50px 20px;      /* reduced from 80px to 50px */
+  border-radius: 20px;
+  margin: 40px auto;       /* slightly smaller spacing */
+  max-width: 700px;        /* smaller width */
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+  opacity: 0;
+  transform: scale(0.95);
+  transition: all 0.8s ease-in-out;
+}
+
+.hireme-section.show {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.hireme-section h2 {
+  font-size: 32px;          /* slightly smaller */
+  margin-bottom: 15px;      /* less space */
+  letter-spacing: 1px;
+}
+
+.hireme-section p {
+  font-size: 16px;          /* slightly smaller */
+  margin-bottom: 30px;
+}
+
+.hireme-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.hireme-btn {
+  display: inline-block;
+  padding: 12px 25px;       /* smaller padding */
+  font-weight: bold;
+  border-radius: 50px;
+  background: white;
+  color: #ff6a00;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.hireme-btn:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+  background: #fff3e6;
+}
