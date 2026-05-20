@@ -16,3 +16,15 @@ It is a multi-page website with a clean design, smooth animations, and a fully r
 Built entirely with **HTML, CSS, and JavaScript** — no frameworks, just pure web basics! 💪
 
 ---
+
+## ✨ Features
+
+- 🏠 **Home Page** – Introduction with animated skill progress bars
+- 👩‍💻 **About Page** – Education timeline and personal bio
+- 🚀 **Projects Page** – Showcase of GitHub projects with links
+- 🛠 **Services Page** – Services offered (Web Dev, Data Science, AI/ML, Cloud)
+- 📬 **Hire Me Page** – Direct links to GitHub and email
+- 🎨 Smooth fade-in animations using JavaScript
+- 📱 Responsive navigation across all pages
+
+---
