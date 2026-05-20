@@ -1,6 +1,7 @@
 # 🌐 Portfolio Website
 
 **Author:** Pratiksha Mishra
+
 🌐 [thepratikshamishra](https://github.com/thepratikshamishra)
 
 💼 [LinkedIn](https://www.linkedin.com/in/the-pratiksha-mishra)
@@ -43,10 +44,15 @@ Built entirely with **HTML, CSS, and JavaScript** — no frameworks, just pure w
 **Clone the repository**
 
 git clone https://github.com/thepratikshamishra/portfolio.git
+
 **Navigate to the project folder**
+
 cd portfolio
+
 **Open in browser**
+
 Open index.html in any web browser
+
 > No installation or server required — just open and go! 🎉
 
 ---
@@ -54,7 +60,9 @@ Open index.html in any web browser
 ## 📂 Project Structure
 portfolio/
 │── index.html          # Home page with skills section
+
 │── about.html          # About me & education
+
 │── project.html        # Projects showcase
 │── ourservices.html    # Services offered
 │── contact.html        # Hire me / contact page
