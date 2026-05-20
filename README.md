@@ -58,18 +58,27 @@ Open index.html in any web browser
 ---
 
 ## 📂 Project Structure
+
 portfolio/
+
 │── index.html          # Home page with skills section
 
 │── about.html          # About me & education
 
 │── project.html        # Projects showcase
+
 │── ourservices.html    # Services offered
+
 │── contact.html        # Hire me / contact page
+
 │── style.css           # All styles & animations
+
 │── javascript.js       # Interactive elements
+
 │── images/             # Profile & other images
+
 │── README.md           # Project documentation
+
 
 ---
 
@@ -83,7 +92,10 @@ portfolio/
 
 ---
 
+
 ## 🙌 Contributing
 
 Contributions are welcome!
 If you'd like to suggest improvements or add new features, feel free to fork the repo and submit a pull request.
+
+
