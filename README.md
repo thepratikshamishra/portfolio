@@ -2,7 +2,9 @@
 
 **Author:** Pratiksha Mishra
 🌐 [thepratikshamishra](https://github.com/thepratikshamishra)
+
 💼 [LinkedIn](https://www.linkedin.com/in/the-pratiksha-mishra)
+
 📧 [pratikshamishra338@gmail.com](mailto:pratikshamishra338@gmail.com)
 
 ---
@@ -28,3 +30,14 @@ Built entirely with **HTML, CSS, and JavaScript** — no frameworks, just pure w
 - 📱 Responsive navigation across all pages
 
 ---
+
+## 🛠 Tech Stack
+
+- **Language:** HTML5, CSS3, JavaScript
+- **Concepts Used:** Flexbox, CSS Animations, DOM Manipulation, Progress Bars, Multi-page Navigation
+
+---
+
+## 🚀 How to Run
+
+**Clone the repository**
