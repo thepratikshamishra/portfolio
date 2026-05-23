@@ -97,5 +97,3 @@ portfolio/
 
 Contributions are welcome!
 If you'd like to suggest improvements or add new features, feel free to fork the repo and submit a pull request.
-
-
