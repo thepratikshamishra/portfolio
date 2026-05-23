@@ -38,7 +38,7 @@ Built entirely with **HTML, CSS, and JavaScript** — no frameworks, just pure w
 - **Concepts Used:** Flexbox, CSS Animations, DOM Manipulation, Progress Bars, Multi-page Navigation
 
 ---
-
+                                    
 ## 🚀 How to Run
 
 **Clone the repository**
